@@ -1,0 +1,15 @@
+{
+  "dataset": "Iris",
+  "algorithm": "DecisionTreeClassifier",
+  "random_state": 42,
+  "test_size": 0.2,
+  "tested_depths": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "None"
+  ],
+  "selection_metric": "macro_f1",
+  "selected_depth": "3"
+}
